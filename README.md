@@ -123,7 +123,7 @@ alex@ubuntu:~/c/printf$
 ### Authors
 
 * [Olajuwon Lawal]- *Initial work* - [ol4juwon](https://github.com/ol4juwon)
-* [Busayo Ogunde] - *Initial work* - [hokagesama](https://github.com/hokagecode)
+* [Busayo Ogunde] - *Initial work* - [hokagecodes](https://github.com/hokagecode)
 
 ### Acknowledgments
 
