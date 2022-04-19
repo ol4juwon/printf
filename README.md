@@ -83,8 +83,8 @@ int main(void)
     printf("Unknown:[%r]\n");
     return (0);
 }
-alex@ubuntu:~/c/printf$ gcc -Wall -Wextra -Werror -pedantic -Wno-format *.c
-alex@ubuntu:~/c/printf$ ./printf
+hokageCodes@ubuntu:~/c/printf$ gcc -Wall -Wextra -Werror -pedantic -Wno-format *.c
+hokageCodes@ubuntu:~/c/printf$ ./printf
 Let's try to printf a simple sentence.
 Let's try to printf a simple sentence.
 Length:[39, 39]
@@ -109,7 +109,7 @@ Len:[12]
 Len:[12]
 Unknown:[%r]
 Unknown:[%r]
-alex@ubuntu:~/c/printf$
+hokageCodes@ubuntu:~/c/printf$
 ```
 * We strongly encourage you to work all together on a set of tests
 * If the task does not specify what to do with an edge case, do the same as printf
@@ -120,7 +120,7 @@ alex@ubuntu:~/c/printf$
 ### Authors
 
 * [Olajuwon Lawal]- *Initial work* - [ol4juwon](https://github.com/ol4juwon)
-* [Busayo Ogunde] - *Initial work* - [hokagecodes](https://github.com/hokagecode)
+* [Busayo Ogunde] - *Initial work* - [hokageCodes](https://github.com/hokagecode)
 
 ### Acknowledgments
 
