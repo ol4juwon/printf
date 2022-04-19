@@ -1,7 +1,4 @@
-# 0x10. C - printf
-Foundations - Low-level programming & Algorithm ― Hatching out
-by Julien Barbier, co-founder at Holberton School.
-Project to be done in teams of 2 people (your team: Olajuwon Lawal, Busayo Ogunde)
+The printf project is a collaboration between Olajuwon Lawal and Ogunde Busayo, students of Software Engineering at ALX Africa, in partnership with Holberton School of Computer Science, wrote a function named "_printf" which imitates the actual "printf" command located in the stdio.h library.
 
 ## Background Context
 * Write your own `printf` function.
