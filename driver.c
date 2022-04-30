@@ -13,7 +13,7 @@ int (*driver(char *format))(char *format, va_list)
 {
 int i;
 
-structype selector[] = {
+print_t selector[] = {
 {"%c", printc},
 {"%s", printstr},
 {"%d", printint},
