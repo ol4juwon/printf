@@ -13,11 +13,11 @@
 * Return int
 */
 
-typedef struct structprint
+typedef struct print
 {
 char *q;
 int (*u)(char *format, va_list);
-} structtype;
+} print_t;
 
 int _printf(char *format, ...);
 
