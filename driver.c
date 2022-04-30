@@ -14,14 +14,14 @@ int (*driver(char *format))(char *format, va_list)
 int i;
 
 print_t selector[] = {
-{"%c", printc},
+// {"%c", printc},
 {"%s", printstr},
-{"%d", printint},
-{"%i", printint},
+// {"%d", printint},
+// {"%i", printint},
 {"%%", printpercent},
-{"%x", printhex},
-{"%X", printHEX},
-{"%o", printocta},
+// {"%x", printhex},
+// {"%X", printHEX},
+// {"%o", printocta},
 {NULL, NULL}
 };
 
