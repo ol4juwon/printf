@@ -15,10 +15,10 @@ int i;
 
 print_t selector[] = {
 // {"%c", printc},
-{"%s", printstr},
+{"%s", print_str},
 // {"%d", printint},
 // {"%i", printint},
-{"%%", printpercent},
+// {"%%", printpercent},
 // {"%x", printhex},
 // {"%X", printHEX},
 // {"%o", printocta},
