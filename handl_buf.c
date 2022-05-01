@@ -1,12 +1,20 @@
 #include "main.h"
 
 /**
- * print_buf - prints buffer
+ * handl_buf - concatenates the buffer characters
  * @buf: buffer pointer
- * @nbuf: number of bytes to print
- * Return: number of bytes printed.
+ * @c: charcter to concatenate
+ * @ibuf: index of buffer pointer
+ * Return: index of buffer pointer.
  */
-int print_buf(char *buf, unsigned int nbuf)
+unsigned int handl_buf(char *buf, char c, unsigned int ibuf)
 {
-	return (write(1, buf, nbuf));
+	if (ibuf == 1024)
+	{
+		print_buf(buf, ibuf);
+		ibuf = 0;
+	}
+	buf[ibuf] = c;
+	ibuf++;
+	return (ibuf);
 }
