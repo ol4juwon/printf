@@ -19,6 +19,6 @@ char *q;
 int (*u)(char *format, va_list);
 } print_t;
 
-int _printf(char *format, ...);
+int _printf(const char *format, ...);
 
 #endif
