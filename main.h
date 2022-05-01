@@ -1,5 +1,5 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef _MAIN_H_
+#define _MAIN_H_
 
 #include <stdarg.h>
 #include <stddef.h>
@@ -19,6 +19,6 @@ char *q;
 int (*u)(char *format, va_list);
 } print_t;
 
-int _printf(char *format, ...);
+int _printf(const char *format, ...);
 
 #endif
